@@ -30,7 +30,7 @@ public class NetworkModule {
                 .log(Platform.INFO)
                 .request("Request")
                 .response("Response")
-                .addQueryParam("apiKey", BuildConfig.API_KEY)
+                .addQueryParam("apiKey", "75e1fac65ae745f7a7b23f7184664575")
                 .build();
     }
 
